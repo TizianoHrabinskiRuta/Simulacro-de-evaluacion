@@ -18,14 +18,14 @@ public class Ej2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Convert.ToSingle(Prod1 + Prod2 + Prod3) > Dinero)
+        if (Convert.ToSingle(Producto1 + Producto2 + Producto3) > Dinero)
         {
-             float I =  Convert.ToSingle(Prod1 + Prod2 + Prod3) - Dinero;
+             float I =  Convert.ToSingle(Producto1 + Producto2 + Producto3) - Dinero;
             Debug.Log("Faltan: $" + I.ToString());
         }
         else
         {
-            float J = Dinero - Convert.ToSingle(Prod1 + Prod2 + Prod3) ;
+            float J = Dinero - Convert.ToSingle(Producto1 + Producto2 + Producto3) ;
             Debug.Log("Sobra: $" + J.ToString());
         }
 
