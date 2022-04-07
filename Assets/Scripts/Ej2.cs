@@ -9,9 +9,9 @@ public class Ej2 : MonoBehaviour
     //Crear las variables necesarias para ingresar por inspector el precio de 3 productos y un monto de dinero disponible. 
     // Comunicar si la suma de los mismos supera o no el monto de dinero disponible. Luego indicar cuanto dinero sobra o falta. 
 
-    public int Prod1;
-    public int Prod2;
-    public int Prod3;
+    public int Producto1;
+    public int Producto2;
+    public int Producto3;
 
     public float Dinero;
 
